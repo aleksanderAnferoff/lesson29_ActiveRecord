@@ -9,7 +9,9 @@ set :datebase, "sqlite3:lesson29.db"
 class Client < ActiveRecord::Base
 end
 
-
+class Psychologist < ActiveRecord::Base
+end
+ 
 get '/' do
 	erb "Hello!"
 end
