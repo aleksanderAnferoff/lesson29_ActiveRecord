@@ -11,7 +11,7 @@ end
 
 class Psychologist < ActiveRecord::Base
 end
- 
+
 get '/' do
 	erb "Hello!"
 end
